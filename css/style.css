@@ -1,0 +1,115 @@
+body * {overflow: hidden;}
+a {
+    all: unset;
+    cursor: pointer;
+}
+aside {
+    position: fixed;
+    background-color: black;
+    color: beige;
+    left:  0;
+    height:  100vh;
+    width: 0
+}
+
+aside a {
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem;
+    transition: .5s;
+}
+
+.clr {clear:both}
+
+#close {
+    background-color: black;
+    color: beige;
+    border: 0;
+    padding: 10px;
+    float: right;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+aside a:first-child {margin-top: 10rem;}
+
+aside a:hover {
+    color: rgb(255, 99, 71)
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255, 99, 71, .6),rgba(255, 99, 71, .8)), url('../images/qbvyzfv2qw0gqihpf3ck.jpeg');
+    background-size: cover;
+}
+
+#open {
+    font-size: 1.5rem;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 30px;
+    font-weight: bolder;
+    align-self: flex-start;
+}
+
+.accordion {
+    width: 50%;
+    margin: 10rem auto;
+}
+
+.accordion h2, .accordion  p {margin:0; padding: 1rem}
+
+.accordion h2 {
+    text-align: center;
+    color:  white;
+    background-color: rgb(255, 99, 71);
+    cursor:  pointer;
+}
+.accordion p {
+    background-color: #eee;
+    display: none;
+}
+
+#countdown {
+    color: white;
+    padding: 2rem;
+    background-image: linear-gradient(to bottom, rgba(255, 99, 71, .6),rgba(255, 99, 71, .8)), url('../images/istockphoto-962933058-612x612.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 4rem 0;
+}
+
+#countdown div * {
+    border: 2px solid white;
+    padding: 1rem;
+    font-size: 3rem;
+    width: 144px;
+    height: 108px;
+    text-align: center;
+}
+
+.socials a {
+    border: 3px solid grey;
+    padding: 10px;
+    color: grey;
+    transition: .3s;
+}
+
+.socials a:hover {
+    background-color: tomato;
+    color: white;
+    border-color: tomato
+}
+
+.btn-send {
+    background-color: tomato;
+    color:white;
+    font-weight: bold;
+}
